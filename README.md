@@ -7,6 +7,6 @@ Team Members:
 - Flo
   [personal Code1 repository](https://github.com/Ive24/Code1/blob/main/Code1_Documentation.md)
 - Marcel
-  https://github.com/MarcelHerbst/Code1/blob/main/Marcel
+  [Personal Code1 repository](https://github.com/MarcelHerbst/Code1/blob/main/Marcel)
 - Chris
 
