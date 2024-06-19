@@ -1,0 +1,14 @@
+/*Kommentare*/
+
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: rgb(7, 19, 19);
+    margin: auto;
+    padding: 0;
+}
+
+.starttext
+{
+    size: 500px;
+}
