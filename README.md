@@ -4,8 +4,8 @@
 ## Team Members
 
 ### Denise (Team Captain)
-  - [personal Code1 repository](https://github.com/DeniseAlicia/Code1)
-  - [GitHub page](https://denisealicia.github.io/Code1/)
+[personal Code1 repository](https://github.com/DeniseAlicia/Code1)
+  [GitHub page](https://denisealicia.github.io/Code1/)
 ### Flo
   [personal Code1 repository](https://github.com/Ive24/Code1)
 ### Marcel
