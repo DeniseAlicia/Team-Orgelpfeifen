@@ -14,4 +14,4 @@
 ## Team Projects
 
 - [Experimenting with html](MiniProjects/KühlschrankMesse.html)
-- [Branching story with html](BranchingStory/StoryBeginning.html)
+- [Branching story with html](BranchingStory/StoryIntro.html)
