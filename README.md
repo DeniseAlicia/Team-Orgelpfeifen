@@ -18,4 +18,4 @@
 ## Team Projects
 
 - [Experimenting with html](MiniProjects/KühlschrankMesse.html)
-- [Branching story with html](Team-Orgelpfeifen/BranchingStory/StoryIntro.html)
+- [Branching story with html](BranchingStory/StoryIntro.html)
