@@ -9,6 +9,8 @@
 [GitHub page](https://denisealicia.github.io/Code1/)
 ### Flo
   [personal Code1 repository](https://github.com/Ive24/Code1)
+
+  [GitHub page](https://ive24.github.io/Code1/)
 ### Marcel
   [Personal Code1 repository](https://github.com/MarcelHerbst/Code1)
 
