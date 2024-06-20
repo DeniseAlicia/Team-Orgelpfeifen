@@ -11,6 +11,8 @@
   [personal Code1 repository](https://github.com/Ive24/Code1)
 ### Marcel
   [Personal Code1 repository](https://github.com/MarcelHerbst/Code1)
+
+  [GitHub page](https://marcelherbst.github.io/Code1/)
 ### Chris
   [personal Code1 repository](https://github.com/Pumprlfl/Code1/)
   
