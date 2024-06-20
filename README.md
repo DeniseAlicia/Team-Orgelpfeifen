@@ -10,7 +10,7 @@
 ### Flo
   [personal Code1 repository](https://github.com/Ive24/Code1)
 ### Marcel
-  [Personal Code1 repository](https://github.com/MarcelHerbst/Code1/blob/main/Marcel)
+  [Personal Code1 repository](https://github.com/MarcelHerbst/Code1)
 ### Chris
   [personal Code1 repository](https://github.com/Pumprlfl/Code1/)
   
