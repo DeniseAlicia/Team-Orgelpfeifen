@@ -1,0 +1,45 @@
+body
+{
+    font-family: Arial, sans-serif;
+
+    background-color: rgba(136, 133, 133, 0.808);
+    
+    margin: auto;ss
+    padding: 0;
+}
+
+.FirstChoiceBlockheadline
+{
+    font-weight: bold;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.FirstChoiceBlockimage
+{
+    text-align: center;
+}
+
+.FirstChoiceBlockimage img
+{
+    border: 5px solid black; /* Fügt eine schwarze Umrandung um das Bild hinzu */
+    border-radius: 25px;
+}
+
+.FirstChoiceBlocktext
+{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+
+button
+{
+    margin: 0 10px;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+

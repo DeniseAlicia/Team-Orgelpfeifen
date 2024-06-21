@@ -1,0 +1,45 @@
+body
+{
+    font-family: Arial, sans-serif;
+
+    background-color: rgba(136, 133, 133, 0.808);
+    
+    margin: auto;ss
+    padding: 0;
+}
+
+.Victorytext1
+{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.VictoryHeadline
+{
+    font-weight: bold;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.VictoryImage
+{
+    text-align: center; /* Zentriert den Inhalt horizontal */
+    margin-top: 20px;
+}
+
+.VictoryImage img
+{
+    border: 5px solid black; /* Fügt eine schwarze Umrandung um das Bild hinzu */
+    border-radius: 25px;
+}
+
+.Victorytext2
+{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}

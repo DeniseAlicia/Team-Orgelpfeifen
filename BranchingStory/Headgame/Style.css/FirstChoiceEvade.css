@@ -1,0 +1,49 @@
+body
+{
+    font-family: Arial, sans-serif;
+
+    background-color: rgba(136, 133, 133, 0.808);
+    
+    margin: auto;ss
+    padding: 0;
+}
+
+.FirstChoiceEvadeheadline
+{
+    font-weight: bold;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.FirstChoiceEvadeimage
+{
+    text-align: center; /* Zentriert den Inhalt horizontal */
+}
+
+.FirstChoiceEvadeimage img
+{
+    border: 5px solid black; /* Fügt eine schwarze Umrandung um das Bild hinzu */
+    border-radius: 25px;
+}
+
+.FirstChoiceEvadetext
+{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.FirstChoiceEvadebutton
+{
+    display: flex;
+    justify-content: center;
+}
+
+.FirstChoiceEvadebutton button
+{
+    margin: 0 10px;
+    padding: 10px 25px;
+    border-radius: 20px;
+}

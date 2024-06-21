@@ -12,17 +12,23 @@ body
 
 
 /*BILD*/
-.startimage
-{
-    display: flex;
-    justify-content: center;
+.Startimage {
+    text-align: center; /* Zentriert den Inhalt horizontal */
+    margin-top: 20px;
+}
+
+.Startimage img {
+    border: 5px solid black; /* Fügt eine schwarze Umrandung um das Bild hinzu */
+    border-radius: 25px;
 }
 
 
 
 /*Überschrift*/
-.startheadline1
+.StartHeadline
 {
+    font-weight: bold;
+    text-decoration: underline;
     display: flex;
     justify-content: center;
 }
@@ -30,30 +36,26 @@ body
 
 
 /*Text*/
-.starttext
+.Starttext
+{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+
+.Buttonstart 
 {
     display: flex;
     justify-content: center;
-
-    font-size: 18px;
 }
 
-
-/*BUTTONS*/
-.buttonstart {
-    display: flex;
-    justify-content: center;
-}
-
-.buttonstart button {
+.Buttonstart button
+{
     margin: 0 10px;
-    padding: 12px 50px;
+    padding: 10px 25px;
     border-radius: 20px;
-    text-decoration: none;
-    color:black;
 }
 
-.buttonstart button:visited
-{
-    color: black;
-}
+

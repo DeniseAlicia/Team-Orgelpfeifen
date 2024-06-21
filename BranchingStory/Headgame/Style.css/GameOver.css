@@ -1,0 +1,49 @@
+body
+{
+    font-family: Arial, sans-serif;
+
+    background-color: rgba(136, 133, 133, 0.808);
+    
+    margin: auto;ss
+    padding: 0;
+}
+
+.GameOverheadline
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.GameOverimage
+{
+    text-align: center; /* Zentriert den Inhalt horizontal */
+    margin-top: 20px;
+}
+
+.GameOverimage img
+{
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+.GameOvertext
+{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.GameOverbutton
+{
+    display: flex;
+    justify-content: center;
+}
+
+.GameOverbutton button
+{
+    padding: 10px;
+    border-radius: 20px;
+}
