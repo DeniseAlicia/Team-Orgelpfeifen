@@ -22,8 +22,6 @@ function createBoard(x, y) {
         let rowHeight = 100 + i * 100;
         for (let t = 0; t < x; t++) {
             let rowWidth = 200 + t * 100;
-            console.log(x);
-            console.log(y);
             let box = document.createElement("div");
             box.className = "box";
             box.style.display = "inline";
@@ -31,9 +29,10 @@ function createBoard(x, y) {
             box.style.top = rowHeight + "px";
             box.style.left = rowWidth + "px";
             box.dataset.coord = String(t) + String(i);
-            if (x == t - 1) {
+            box.addEventListener("click", placeCoin);
+            if (i == y - 1) {
                 box.dataset.valid = "valid";
-                box.addEventListener("click", placeCoin);
+                console.log("hello");
             }
             else {
                 box.dataset.valid = "invalid";
@@ -50,6 +49,13 @@ function placeCoin(_event) {
     coinSpot.appendChild(coin);
     coinSpot.dataset.valid = "invalid";
     coinSpot.removeEventListener;
+    Let;
+    Coordinates: String = String(coinSpot.dataset.coord);
+    x = Coordinates.substring(0);
+    y = Coordinates.substring(0);
+    let boxAbove = document.querySelector(`.box[data-coord='${x}${y - 1}']`);
+    boxAbove.dataset.valid = "valid";
+    boxAbove.addEventListener("click", placeCoin);
     checkWin;
 }
 function checkWin() {
