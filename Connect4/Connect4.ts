@@ -74,10 +74,10 @@ function placeCoin(_event: MouseEvent): void {
     coinSpot.dataset.valid = "invalid";
     coinSpot.removeEventListener;
 
-    Let Coordinates: String = String(coinSpot.dataset.coord);
-    x = Coordinates.substring(0);
-    y = Coordinates.substring(0);
-    let boxAbove:  HTMLElement = <HTMLElement> document.querySelector(`.box[data-coord='${x}${y-1}']`)
+    let Coordinates: String = String(coinSpot.dataset.coord);
+    let coordX: number = parseInt(Coordinates.substring(0));
+    let coordY: number= parseInt(Coordinates.substring(1));
+    let boxAbove:  HTMLElement = <HTMLElement> document.querySelector(`.box[data-coord='${coordX}${coordY-1}']`)
 
     boxAbove.dataset.valid = "valid";
     boxAbove.addEventListener("click", placeCoin);

@@ -49,11 +49,10 @@ function placeCoin(_event) {
     coinSpot.appendChild(coin);
     coinSpot.dataset.valid = "invalid";
     coinSpot.removeEventListener;
-    Let;
-    Coordinates: String = String(coinSpot.dataset.coord);
-    x = Coordinates.substring(0);
-    y = Coordinates.substring(0);
-    let boxAbove = document.querySelector(`.box[data-coord='${x}${y - 1}']`);
+    let Coordinates = String(coinSpot.dataset.coord);
+    let coordX = parseInt(Coordinates.substring(0));
+    let coordY = parseInt(Coordinates.substring(1));
+    let boxAbove = document.querySelector(`.box[data-coord='${coordX}${coordY - 1}']`);
     boxAbove.dataset.valid = "valid";
     boxAbove.addEventListener("click", placeCoin);
     checkWin;
