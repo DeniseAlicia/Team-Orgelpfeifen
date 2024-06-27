@@ -4,7 +4,7 @@ function Dungeonstart(storypart) {
     switch (storypart) {
         /*1*/
         case "start":
-            let Storystart = prompt("You are in debt to someone but have no money.\nWhile at the market, you hear about a dungeon in the forest where a treasure is hidden.\nEquipped with a shield and sword, you decide to enter the dungeon to find the treasure.\nWhen you finally arrive in the dungeon, you have three paths to choose from: left, straight, or right.\nWhich path do you choose?");
+            let Storystart = prompt("You are in debt to someone but have no money.\nWhile at the market, you hear about a dungeon in the forest where a treasure is hidden.\nEquipped with a shield and sword, you decide to enter the dungeon to find the treasure.\nWhen you finally arrive in the dungeon, you have three paths to choose from: left, forward, or right.\nWhich path do you choose?");
             if (Storystart == "left") {
                 Dungeonstart("left");
             }
