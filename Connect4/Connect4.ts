@@ -28,21 +28,34 @@ function handleStart(_event: MouseEvent): void {
 function createBoard(x: number, y: number): void {
     console.log("board is being created...");
     let board: HTMLElement = <HTMLElement>document.getElementById("board");
+  ;
 
     for (let i: number = 0; i < y; i++) {
 
-        let rowHeight: number = i * 10
+        let rowHeight: number = 100 + i * 100;
 
         for (let t: number = 0; t < x; t++) {
+
+            let rowWidth: number = 200 + t * 100;
+
+            console.log(x);
+            console.log(y);
 
             let box: HTMLElement = document.createElement("div");
             box.className = "box";
             box.style.display = "inline";
             box.style.position = "absolute";
             box.style.top = rowHeight + "px";
-            box.id = String(x) + String(y);
-            
-            if (x = t)
+            box.style.left = rowWidth + "px";
+            box.dataset.coord = String(t) + String(i);
+
+            if (x == t - 1) {
+                box.dataset.valid = "valid";
+                box.addEventListener ("click", placeCoin);
+            }
+            else {
+                box.dataset.valid = "invalid";
+            }
 
             board.appendChild(box);
         }
@@ -55,6 +68,15 @@ function placeCoin(_event: MouseEvent): void {
     console.log("coin placement");
 
     let coinSpot: HTMLElement = <HTMLElement>_event.target;
+    
+    let coin: HTMLElement = <HTMLElement>document.createElement("span");
+    coin.id = String(coinSpot.dataset.coord);
+
+    coinSpot.appendChild(coin);
+    coinSpot.dataset.valid = "invalid";
+    coinSpot.removeEventListener;
+
+    checkWin;
 
 }
 
