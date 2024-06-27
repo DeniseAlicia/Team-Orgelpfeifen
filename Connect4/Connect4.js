@@ -28,7 +28,8 @@ function createBoard(x, y) {
             box.style.position = "absolute";
             box.style.top = rowHeight + "px";
             box.style.left = rowWidth + "px";
-            box.dataset.coord = String(t) + String(i);
+            box.dataset.coordX = String(t);
+            box.dataset.coordY = String(i);
             box.addEventListener("click", placeCoin);
             if (i == y - 1) {
                 box.dataset.valid = "valid";
@@ -46,19 +47,22 @@ function placeCoin(_event) {
     let coinSpot = _event.target;
     let coin = document.createElement("span");
     coin.id = String(coinSpot.dataset.coord);
+    coin.className = activePlayer;
     coinSpot.appendChild(coin);
     coinSpot.dataset.valid = "invalid";
     coinSpot.removeEventListener;
-    let Coordinates = String(coinSpot.dataset.coord);
-    let coordX = parseInt(Coordinates.substring(0));
-    let coordY = parseInt(Coordinates.substring(1));
-    let boxAbove = document.querySelector(`.box[data-coord='${coordX}${coordY - 1}']`);
+    // let coordinates: String = String(coinSpot.dataset.coord);
+    //let coordX: number = parseInt(coordinates.substring(0));
+    //let coordY: number= parseInt(coordinates.substring(1));
+    let yAbove = coinSpot.dataset.coordY;
+    let boxAbove = document.querySelector(`.box[data-coord='yAbove']`);
     boxAbove.dataset.valid = "valid";
     boxAbove.addEventListener("click", placeCoin);
     checkWin;
 }
 function checkWin() {
     console.log("checking for victory");
+    switchPlayer(activePlayer);
 }
 function switchPlayer(Player) {
     console.log("player switch");
