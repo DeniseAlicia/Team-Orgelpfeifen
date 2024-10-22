@@ -85,12 +85,14 @@ function placeCoin(_event: MouseEvent): void {
     boxAbove.dataset.valid = "valid";
     boxAbove.addEventListener("click", placeCoin);
 
-    checkWin;
+    checkWin(coordX, coordY);
 
 }
 
-function checkWin(): void {
+function checkWin(coinX: number, coinY: number): void {
     console.log("checking for victory")
+
+    let winCount: number = 1;
     switchPlayer(activePlayer);
 }
 
